@@ -1,13 +1,13 @@
 package com.example.demo
 
+import kz.efc.kgd.astana1.commons.repo.SadGeneralSegment
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
-import com.test.Test
 
 @SpringBootApplication
 class DemoApplication
 
 fun main(args: Array<String>) {
-	Test()
+	val ss: SadGeneralSegment? = null
 	runApplication<DemoApplication>(*args)
 }
